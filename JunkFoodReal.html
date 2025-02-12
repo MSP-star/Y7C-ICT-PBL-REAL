@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Junk Food</title>
+    <link rel="stylesheet" href="Main-Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .container{
+            width: 85%;
+            margin: auto;
+        }
+        /*Title*/
+        .JunkFood{
+            text-align: center;
+            margin-top: 20px;
+            font-size: 50px;
+            text-shadow: 5px 5px 7.5px rgb(210, 105, 30);
+            width: 100%;
+            margin-top: 10px;
+            margin-bottom: 25px;
+        }
+        /*First-Line*/
+        .Burger{
+            margin: auto;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 40px;
+            text-shadow: 5px 5px 7.5px rgb(210, 105, 30);
+            margin-bottom: 10px;
+        }
+        .box-1{
+            background-color: rgb(253, 243, 219);
+            border-radius: 20px;
+            box-shadow: -10px 10px 5px rgb(165, 135, 60);
+            padding: 15px;
+            margin: auto;
+            font-size: 30px;
+        }
+        .img-1{
+            width: 25%;
+            float: left;
+            margin-right: 10px;
+        }
+        .img-1>img{
+            width: 100%;
+            height: 300px;
+        }
+        /*Space 1*/
+        .space-1{
+            display: flex;
+            height: 100px;
+            width: 100%;
+            background-color: transparent;
+        }
+        /*Second-line*/
+        .Pizza{
+            margin: auto;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 40px;
+            text-shadow: 5px 5px 7.5px rgb(210, 105, 30);
+            margin-bottom: 10px;
+        }
+        .box-2{
+            background-color: rgb(253, 243, 219);
+            border-radius: 20px;
+            box-shadow: -10px 10px 5px rgb(165, 135, 60);
+            padding: 15px;
+            margin: auto;
+            font-size: 30px;
+        }
+        .img-2{
+            width: 25%;
+            float: right;
+            margin-left: 10px;
+        }
+        .img-2>img{
+            width: 100%;
+            height: 300px;
+        }
+        /*Space 2*/
+        .space-2{
+            height: 50px;
+            width: 100%;
+            background-color: transparent;
+            display: flex;
+        }
+        /*Three all*/
+        .three-all{
+            margin: auto;
+            margin-top: 20px;
+            font-size: 40px;
+            text-shadow: 5px 5px 7.5px rgb(210, 105, 30);
+            margin-bottom: 10px;
+        }
+        /*Third Line*/
+        .img-3>img{
+            height: 300px;
+            width: 100%;
+        }
+        .img-3:hover{
+            opacity: 0.5;
+        }
+        /*Fourth Line*/
+        .flex-3{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            margin-bottom: 50px;
+        }
+        .box{
+            background-color: rgb(253, 243, 219);
+            box-shadow: -10px 10px 5px rgb(165, 135, 60);
+            padding: 5px;
+            border-radius: 20px;
+            margin: auto;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            font-size: 30px;
+            height: fit-content;
+        }
+        .img-3,.img-4,.img-5{
+            clip-path: ellipse(49% 44% at 50% 50%);
+            margin: auto;
+            width: 80%;
+        }
+        .p-3,.p-4,.p-5{
+            text-align: justify;
+            padding: 10px;
+            height: 300px;
+            overflow: scroll;
+        }
+        .img-4>img{
+            height: 300px;
+            width: 100%;
+        }
+        .img-4:hover{
+            opacity: 0.5;
+        }
+        /*Fifth Line*/
+        .img-5>img{
+            height: 300px;
+            width: 100%;
+        }
+        .img-5:hover{
+            opacity: 0.5;
+        }
+        /*suggest*/
+        .suggest{
+            text-align: center;
+        }
+        /*Go-to-top of the page-botton-*/
+        .fixed-home{
+            background-color: lightgray;
+            border-radius: 30px;
+            position: absolute;
+            right: 25px;
+        }
+        /*Twelve Grid*/
+        .col-1 {width: 8.33%;}
+        .col-2 {width: 16.66%;}
+        .col-3 {width: 25%;}
+        .col-4 {width: 33.33%;}
+        .col-5 {width: 41.66%;}
+        .col-6 {width: 50%;}
+        .col-7 {width: 58.33%;}
+        .col-8 {width: 66.66%;}
+        .col-9 {width: 75%;}
+        .col-10 {width: 83.33%;}
+        .col-11 {width: 91.66%;}
+        .col-12 {width: 100%;}
+    @media only screen and (max-width: 768px){
+        /*Body*/
+        .img-1{
+            width: 100%;
+        }
+        .p-1{
+            text-align: center;
+        }
+        .img-2{
+            width: 100%;
+        }
+        .p-2{
+            text-align: center;
+        }
+        .box-3-4-5{
+            width: 100%;
+        }
+        .flex-3{
+            flex-direction: column;
+        }
+        .three-all{
+            width: 100%;
+        }
+        .box{
+            width: 100%;
+            display: block;
+        }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="thunder">
+            <img src="images/thunder.png" alt="logo">
+            <h1>NUTRITIONAL FOOD ASSIST</h1>
+        </div>
+        <ul class="nav">
+            <li class="nav-item"><a href="index.html" class="nav-link" style="text-align: center;">Home</a></li>
+            <li class="nav-item dropdown"><a href="#" class="nav-link">Catergories</a>
+                <ul class="dropdown-content">
+                    <li><a href="Healthy.html">Healthy Food</a></li><br>
+                    <li><a href="JunkFoodReal.html">Junk Food</a></li><br>
+                    <li><a href="Fruit-Vege.html">Fruits and Vegetables</a></li><br>
+                    <li><a href="DairyProduct.html">Dairy Products</a></li><br>
+                </ul>
+            </li>    
+            <li class="nav-item dropdown"><a href="#" class="nav-link">About Us</a>
+                <ul class="dropdown-content">
+                    <li><a href="AboutUs.html">About us</a></li><br>
+                    <li><a href="DQ-EQ.html">DQ & EQ</a></li><br>
+                    <li><a href="Reference.html">Reference</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+    <!--Upper part-->
+    <div class="container">
+        <h1 id="top" class="JunkFood">Junk Food</h1>
+        <h1 class="Burger col-4">Burger</h1>
+            <div class="box-1">
+                <div class="img-1"><img src="images/Burger.jpg"></div>
+                <p class="p-1">A burger is a popular food made with a bread bun, a meat or veggie patty, cheese, lettuce, tomato, and sauces like ketchup or mayonnaise. While burgers are tasty, eating too many can be unhealthy. They often have a lot of fat, salt, and calories, which can lead to weight gain, heart problems, and diseases like diabetes if eaten too often. People should eat burgers only once a week or less to stay healthy. It's better to enjoy them as an occasional treat instead of a regular meal.</p>
+            </div>
+
+        <div class="space-1"></div>
+
+        <h1 class="Pizza col-4">Pizza</h1>
+            <div class="box-2">
+                <div class="img-2"><img src="images/Pizza.jpg"></div>
+                <p class="p-2">Pizza is a popular dish made with a flat dough base, tomato sauce, cheese, and toppings like vegetables, meat, or seafood. While pizza is delicious, eating too much of it can be unhealthy. It often contains a lot of fat, salt, and calories, especially if it has extra cheese or processed meats like pepperoni. Eating too much pizza can lead to weight gain and health problems like heart disease or high blood pressure. People should eat pizza only once a week or less to stay healthy and choose options with more vegetables and less cheese for a healthier meal.</p>
+            </div>
+
+        <div class="space-2"></div>
+
+        <!--Middle Part-->
+        <div class="box-3-4-5">
+            <h1 class="three-all col-4">Ice-cream, Juice, Donuts</h1>
+        </div>
+        <div class="flex-3">
+            <div class="box-3 col-3 box">
+                <div class="img-3"><img src="images/Ice-cream.jpg"></div>
+                <p class="p-3">Ice cream is a dessert that people love on hot days. It is made from milk, cream, sugar, and flavorings like strawberry, chocolate, or vanilla. Although it tastes great, eating too much ice cream is not good for your body. It has a lot of sugar and fat, which can cause health issues such as weight gain or tooth problems. To stay healthy, it's best to eat ice cream only once in a while, like once a week or on special occasions. Smaller portions are a good idea too!</p>
+            </div>
+            <div class="box-4 col-3 box">
+                <div class="img-4"><img src="images/Soda.jpg"></div>
+                <p class="p-4">Soda is a popular drink that is fizzy and sweet, often flavored with ingredients like cola, orange, or lemon. While it tastes good, soda is full of sugar and artificial additives, which can cause health problems like tooth decay, weight gain, and even diabetes if consumed in large amounts. Drinking soda occasionally is fine, but it’s best to avoid having it every day. Instead, enjoy it as a treat, like once a week or during special events.</p>
+            </div>
+            <div class="box-5 col-3 box">
+                <div class="img-5"><img src="images/Donut.jpg"></div>
+                <p class="p-5">Donuts are sweet treats made from fried dough and often topped with sugar, icing, or sprinkles. They are soft, delicious, and come in many flavors like chocolate, vanilla, or jam-filled. However, donuts are high in sugar and fat, which can lead to weight gain, tooth decay, and other health problems if eaten too often. To stay healthy, people should enjoy donuts only occasionally, like once a month, and not make them a regular snack. A smaller donut or sharing one with someone else can also be a good way to enjoy them without overindulging!</p>
+            </div>
+        </div>
+        <div class="box suggest">Overall we suggest you to not to eat those junk food too much. It is cheap and tasty but it has a lot of bad effects too. Eating onece a month or only in special days might be a better choice.</div>
+    </div>
+    <a href="#top"><button class="fixed-home">Go Back</button></a>
+    <footer>
+        <div class="clearfix">
+            <div class="footer-column col-4">
+                <img src="images/THUNDER.png" alt="Logo" style="width: 100px;"><br><br>
+                <p>THUNDER SQUAD</p><br>
+            </div>   
+            <div class="footer-column col-4">
+                <h3>Quick Access:</h3>
+                <ul>
+                    <li><a href="Healthy.html">Healthy Food</a></li>
+                    <li><a href="JunkFoodReal.html">Junk Food</a></li>
+                    <li><a href="Fruit-Vege.html">Fruits and Vegetables</a></li>
+                    <li><a href="DairyProduct.html">Dairy Products</a></li>
+                    <li><a href="AboutUs.html">About us</a></li>
+                    <li><a href="DQ-EQ.html">DQ & EQ</a></li>
+                    <li><a href="reference.pdf">Reference</a></li>
+                </ul>
+            </div>   
+            
+            <div class="footer-column col-4">
+                <h3>Address:</h3>
+                <address>
+                    Lanmadaw Street, Lanmadaw Township,<br> Yangon
+                </address> 
+                <h3>Follow Us:</h3>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+
+        </div>
+            <footer>
+                <p>© 2024 Nutrional food assist. All rights reserved. Developed by THUNDER SQUAD.</p>
+            </footer>
+    </footer>
+</body>
+</html>

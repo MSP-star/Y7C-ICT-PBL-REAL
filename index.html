@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="Main-Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        a{
+            text-decoration: none;
+        }
+        .Food-list{
+            background: white;
+            border-radius: 8px;
+            width: 60%;
+            margin: auto;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            align-items: center;
+        }
+        .Food-list img {
+            display: block;
+            margin: 20px auto;
+            width: 60%;
+            height: 200px;
+            object-fit: cover;
+            align-items: center;
+        }
+        .Food-list h3 {
+            margin: 0;
+            padding: 0.5em;
+            background-color:rgb(255, 207, 86);
+            color: rgb(255, 255, 255);
+            text-align: center;
+            color: black;
+            box-shadow: 10px 10px 5px 4px  rgb(165, 135, 60);;
+            text-decoration: none;
+        }
+        .Food-list p {
+            padding: 1em;
+            text-align: center;
+            color: black;
+            text-decoration: none;
+        }
+        .contact_us {
+            background-color: rgb(128, 68, 25);
+            color: white;
+            margin: 0;
+            padding: 20px;
+        }
+        .contact_us h3, .contact_us p, footer p {
+            margin: 0;
+            text-align: center;
+        }
+        footer {
+            background-color: rgb(128, 68, 25);
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .footer-column {
+            display: inline-block;
+            vertical-align: top;
+            width: 30%;
+            margin: 0 10px;
+        }
+        .footer-column a {
+            color: white;
+            text-decoration: none;
+        }
+        .footer-column ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+            padding: 20px;
+            border-radius: 100px;
+        }
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+            padding: 20px;
+            border-radius: 100px;
+        }
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="thunder">
+            <img src="images/thunder.png" alt="logo">
+            <h1>NUTRITIONAL FOOD ASSIST</h1>
+        </div>
+        <ul class="nav">
+            <li class="nav-item"><a href="index.html" class="nav-link" style="text-align: center;">Home</a></li>
+            <li class="nav-item dropdown"><a href="#" class="nav-link">Catergories</a>
+                <ul class="dropdown-content">
+                    <li><a href="Healthy.html">Healthy Food</a></li><br>
+                    <li><a href="JunkFoodReal.html">Junk Food</a></li><br>
+                    <li><a href="Fruit-Vege.html">Fruits and Vegetables</a></li><br>
+                    <li><a href="DairyProduct.html">Dairy Products</a></li><br>
+                </ul>
+            </li>    
+            <li class="nav-item dropdown"><a href="#" class="nav-link">About Us</a>
+                <ul class="dropdown-content">
+                    <li><a href="AboutUs.html">About us</a></li><br>
+                    <li><a href="DQ-EQ.html">DQ & EQ</a></li><br>
+                    <li><a href="Reference.html">Reference</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+    <section id="categories">
+        <h2 style="text-align: center;">Explore Food Categories</h2>
+            <div class="Food-list">
+                <a href="Healthy.html">
+                    <img src="images/healthy food 1.jpg" alt="">
+                    <h3>Healthy Food</h3>
+                    <p>Focuses on salads, lean proteins, whole grains, and nutritious bowls.</p>
+                </a>
+            </div>
+            <div class="Food-list">
+                <a href="JunkFoodReal.html">
+                    <img src="images/junk food 1.jpg" alt="Junk Food">
+                    <h3>Junk Food</h3>
+                    <p>Irresistible treats like fries, pizzas, donuts, and sugary beverages.</p>
+                </a>
+            </div>
+            <div class="Food-list">
+                <a href="Fruit-Vege.html">
+                    <img src="images/fruits and vege 1.jpg"alt="Fruits and Vegetables">
+                    <h3>Fruits and Vegetables</h3>
+                    <p>Fresh and organic produce packed with nutrients and natural flavors.</p>
+                </a>
+            </div>
+            <div class="Food-list">
+                <a href="DairyProduct.html">
+                    <img src="images/dairy prodects 1.jpg" alt="Dairy Products">
+                    <h3>Dairy Products</h3>
+                    <p>Milk, cheese, yogurt, and other calcium-rich essentials.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="clearfix">
+            <div class="footer-column col-4">
+                <img src="images/THUNDER.png" alt="Logo" style="width: 100px;"><br><br>
+                <p>THUNDER SQUAD</p><br>
+            </div>   
+            <div class="footer-column col-4">
+                <h3>Quick Access:</h3>
+                <ul>
+                    <li><a href="Healthy.html">Healthy Food</a></li>
+                    <li><a href="JunkFoodReal.html">Junk Food</a></li>
+                    <li><a href="Fruit-Vege.html">Fruits and Vegetables</a></li>
+                    <li><a href="DairyProduct.html">Dairy Products</a></li>
+                    <li><a href="AboutUs.html">About us</a></li>
+                    <li><a href="DQ-EQ.html">DQ & EQ</a></li>
+                    <li><a href="reference.pdf">Reference</a></li>
+                </ul>
+            </div>   
+            
+            <div class="footer-column col-4">
+                <h3>Address:</h3>
+                <address>
+                    Lanmadaw Street, Lanmadaw Township,<br> Yangon
+                </address> 
+                <h3>Follow Us:</h3>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+
+        </div>
+            <footer>
+                <p>© 2024 Nutrional food assist. All rights reserved. Developed by THUNDER SQUAD.</p>
+            </footer>
+    </footer>
+</body>
+</html> 
